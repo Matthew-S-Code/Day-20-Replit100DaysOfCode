@@ -1,0 +1,10 @@
+print("List Generator")
+print()
+s = int(input("Start at: "))
+e = int(input("End before: "))
+i = int(input("Increment between values: "))
+for list in range(s, e, i):
+  print()
+  print('\033[34m') #prints the list in blue
+  print(list)
+  
